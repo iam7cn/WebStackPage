@@ -98,7 +98,7 @@ function add_main_content_html(item){
     var main_content = $(".main-content");
 
     //标题
-    var h4_title=`<h2 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="${item.name}"></i>${item.name}</h2>`;
+    var h4_title=`<h2 class="text-gray"><i class="lni lni-bookmark-1" style="margin-right: 7px;" id="${item.name}"></i>${item.name}</h2>`;
     main_content.append(h4_title);
 
 
