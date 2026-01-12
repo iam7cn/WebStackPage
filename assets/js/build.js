@@ -36,9 +36,7 @@ const footer = '<footer class="main-footer sticky footer-type-1"> \
 					                    seconds=Math.floor((e_minsold-minsold)*60); \
 					                    span_dt_dt.innerHTML="<font style=color:#C40000>"+daysold+"</font> 天 <font style=color:#C40000>"+hrsold+"</font> 时 <font style=color:#C40000>"+minsold+"</font> 分 <font style=color:#C40000>"+seconds+"</font> 秒"; \
 					                    }show_date_time();</script> \
-					   \
-                        <!--  - Purchase for only <strong>23$</strong> --> \
-                    </div> \
+					   \                    </div> \
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality --> \
                     <div class="go-up"> \
                         <a href="#" rel="go-top"> \
@@ -48,19 +46,6 @@ const footer = '<footer class="main-footer sticky footer-type-1"> \
 					\
                 </div> \
             </footer>';
-
-// 插入到页面中（页面加载完成后执行）
-document.addEventListener('DOMContentLoaded', function() {
-    // 方式1：插入到body末尾
-    document.body.insertAdjacentHTML('beforeend', footer);
-    
-    // 方式2：如果有专属页脚容器，取消注释并使用
-    // const footerContainer = document.getElementById('footer-container');
-    // if (footerContainer) {
-    //     footerContainer.innerHTML = footer;
-    // }
-});
-
 
 $(document).ready(function(){
   var main_content = $(".main-content");
