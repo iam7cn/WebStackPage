@@ -160,5 +160,10 @@ const itemlist =
           "desc": ""
         },
       ]
+    },
+	{
+      "name": "关于我们",
+      "icon": "fa-solid fa-star",
+      "url": "https://www.baidu.com"        
     }
   ]
