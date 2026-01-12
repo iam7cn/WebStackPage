@@ -39,10 +39,27 @@ const footer = '<footer class="main-footer sticky footer-type-1"> \
 					   \
                         <!--  - Purchase for only <strong>23$</strong> --> \
                     </div> \
-					
-                  
+                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality --> \
+                    <div class="go-up"> \
+                        <a href="#" rel="go-top"> \
+                            <i class="lni lni-chevron-up-circle"></i> \
+                        </a> \
+                    </div> \
+					\
+                </div> \
             </footer>';
-			});
+
+// 插入到页面中（页面加载完成后执行）
+document.addEventListener('DOMContentLoaded', function() {
+    // 方式1：插入到body末尾
+    document.body.insertAdjacentHTML('beforeend', footer);
+    
+    // 方式2：如果有专属页脚容器，取消注释并使用
+    // const footerContainer = document.getElementById('footer-container');
+    // if (footerContainer) {
+    //     footerContainer.innerHTML = footer;
+    // }
+});
 
 
 $(document).ready(function(){
