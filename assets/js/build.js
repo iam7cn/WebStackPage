@@ -1,156 +1,19 @@
-const footer = '<footer class="main-footer sticky footer-type-1">
-                <div class="footer-inner">
-                    <!-- Add your copyright text here -->                   
-					<div class="footer-text">
-                        ❤️友情链接：&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ihezu.run/vwZMvu/?ref=https://juzyz.com" target="_blank"><strong>奈飞小铺</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
-					<br />
-					<br />
-					<div class="footer-text">
-                          &copy; 2020-2022 <a href="https://juzyz.com">聚资源</a> 版权所有
-                        <a href="./about.html"><strong>关于聚资源</strong></a>  由 <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>Webstack</strong></a> 驱动 design by <a href="http://viggoz.com/?ref=https://juzyz.com" target="_blank"><strong>Viggo</strong></a> 空间由<a href="https://www.alwaysdata.com/?ref=https://juzyz.com"><strong>alwaysdata</strong></a>免费提供
-						</div>
-						<br />
-						<br />
-						<div class="footer-text">					
-					<span id="jinrishici-sentence">正在加载今日诗词....</span>
-                    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-					</div>&nbsp;&nbsp;&nbsp;&nbsp;
-					
-						<div class="footer-text">
-						站点已稳定运行：<SPAN id=span_dt_dt style="color: #2F889A;"></SPAN>
-<script language=javascript>function show_date_time(){
-					                    window.setTimeout("show_date_time()", 1000);
-					                    BirthDay=new Date("1/1/2020 00:00:00 ");
-					                    today=new Date();
-					                    timeold=(today.getTime()-BirthDay.getTime());
-					                    sectimeold=timeold/1000
-					                    secondsold=Math.floor(sectimeold);
-					                    msPerDay=24*60*60*1000
-					                    e_daysold=timeold/msPerDay
-					                    daysold=Math.floor(e_daysold);
-					                    e_hrsold=(e_daysold-daysold)*24;
-					                    hrsold=Math.floor(e_hrsold);
-					                    e_minsold=(e_hrsold-hrsold)*60;
-					                    minsold=Math.floor((e_hrsold-hrsold)*60);
-					                    seconds=Math.floor((e_minsold-minsold)*60);
-					                    span_dt_dt.innerHTML='<font style=color:#C40000>'+daysold+'</font> 天 <font style=color:#C40000>'+hrsold+'</font> 时 <font style=color:#C40000>'+minsold+'</font> 分 <font style=color:#C40000>'+seconds+'</font> 秒';
-					                    }show_date_time();</script>
-					   
-                        <!--  - Purchase for only <strong>23$</strong> -->
-                    </div>
-					<SCRIPT language=JavaScript>
-<!--
-
-var caution = false
-
-function setCookie(name, value, expires, path, domain, secure) {
-
-var curCookie = name + "=" + escape(value) +
-
-((expires) ? "; expires=" + expires.toGMTString() : "") +
-
-((path) ? "; path=" + path : "") +
-
-((domain) ? "; domain=" + domain : "") +
-
-((secure) ? "; secure" : "")
-
-if (!caution || (name + "=" + escape(value)).length <= 4000)
-
-document.cookie = curCookie
-
-else
-
-if (confirm("Cookie exceeds 4KB and will be cut!"))
-
-document.cookie = curCookie
-
-}
-
-function getCookie(name) {
-
-var prefix = name + "="
-
-var cookieStartIndex = document.cookie.indexOf(prefix)
-
-if (cookieStartIndex == -1)
-
-return null
-
-var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
-
-if (cookieEndIndex == -1)
-
-cookieEndIndex = document.cookie.length
-
-return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
-
-}
-
-function deleteCookie(name, path, domain) {
-
-if (getCookie(name)) {
-
-document.cookie = name + "=" +
-
-((path) ? "; path=" + path : "") +
-
-((domain) ? "; domain=" + domain : "") +
-
-"; expires=Thu, 01-Jan-70 00:00:01 GMT"
-
-}
-
-}
-
-function fixDate(date) {
-
-var base = new Date(0)
-
-var skew = base.getTime()
-
-if (skew > 0)
-
-date.setTime(date.getTime() - skew)
-
-}
-
-var now = new Date()
-
-fixDate(now)
-
-now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
-
-var visits = getCookie("counter")
-
-if (!visits)
-
-visits = 1
-
-else
-
-visits = parseInt(visits) + 1
-
-setCookie("counter", visits, now)
-
-document.write("欢迎光临本站，您是第" + visits + "位访问者！")
-
-// -->
-
-</SCRIPT>
-					
-					
-					
-                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
-                    <div class="go-up">
-                        <a href="#" rel="go-top">
-                            <i class="lni lni-chevron-up-circle"></i>
-                        </a>
-                    </div>
-					
-                </div>
-            </footer>';
+const footer = '<footer class="main-footer sticky footer-type-1"> \
+<div class="footer-inner">\
+    <!-- Add your copyright text here -->\
+    <div class="footer-text">\
+        &copy; 2017-2022\
+        <a href="../cn/about.html"><strong>WebStack</strong></a> design by <a href="https://www.viggoz.com" target="_blank"><strong>Viggo</strong></a>\
+        <!--  - Purchase for only <strong>23$</strong> -->\
+    </div>\
+    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->\
+    <div class="go-up">\
+        <a href="#" rel="go-top">\
+            <i class="fa-solid fa-angles-up"></i>\
+        </a>\
+    </div>\
+</div>\
+</footer>';
 
 
 $(document).ready(function(){
