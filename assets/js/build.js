@@ -17,33 +17,6 @@ const footer = '<footer class="main-footer sticky footer-type-1"> \
                     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script> \
 					</div>&nbsp;&nbsp;&nbsp;&nbsp; \
 					\
-						<div class="footer-text"> \
-						站点已稳定运行：<SPAN id=span_dt_dt style="color: #2F889A;"></SPAN> \
-<script language=javascript>function show_date_time(){ \
-					                    window.setTimeout("show_date_time()", 1000); \
-					                    BirthDay=new Date("1/1/2020 00:00:00 "); \
-					                    today=new Date(); \
-					                    timeold=(today.getTime()-BirthDay.getTime()); \
-					                    sectimeold=timeold/1000 \
-					                    secondsold=Math.floor(sectimeold); \
-					                    msPerDay=24*60*60*1000 \
-					                    e_daysold=timeold/msPerDay \
-					                    daysold=Math.floor(e_daysold); \
-					                    e_hrsold=(e_daysold-daysold)*24; \
-					                    hrsold=Math.floor(e_hrsold); \
-					                    e_minsold=(e_hrsold-hrsold)*60; \
-					                    minsold=Math.floor((e_hrsold-hrsold)*60); \
-					                    seconds=Math.floor((e_minsold-minsold)*60); \
-					                    span_dt_dt.innerHTML="<font style=color:#C40000>"+daysold+"</font> 天 <font style=color:#C40000>"+hrsold+"</font> 时 <font style=color:#C40000>"+minsold+"</font> 分 <font style=color:#C40000>"+seconds+"</font> 秒"; \
-					                    }show_date_time();</script> \
-					   \                    </div> \
-                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality --> \
-                    <div class="go-up"> \
-                        <a href="#" rel="go-top"> \
-                            <i class="lni lni-chevron-up-circle"></i> \
-                        </a> \
-                    </div> \
-					\
                 </div> \
             </footer>';
 
