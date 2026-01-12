@@ -7,7 +7,7 @@ const footer = '<footer class="main-footer sticky footer-type-1"> \
 					<br /> \
 					<br /> \
 					<div class="footer-text"> \
-                          &copy; 2020-2022 <a href="https://juzyz.com">聚资源</a> 版权所有 \
+                          &copy; 2020-2026 <a href="https://juzyz.com">聚资源</a> 版权所有 \
                         <a href="./about.html"><strong>关于聚资源</strong></a>  由 <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>Webstack</strong></a> 驱动 design by <a href="http://viggoz.com/?ref=https://juzyz.com" target="_blank"><strong>Viggo</strong></a> 空间由<a href="https://www.alwaysdata.com/?ref=https://juzyz.com"><strong>alwaysdata</strong></a>免费提供 \
 						</div> \
 						<br /> \
