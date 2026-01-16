@@ -8,6 +8,11 @@ const itemlist =
       "icon": "fa-solid fa-star",
       "web": [
         {
+          "url": "https://nav.juzyz.com",
+          "logo": "./assets/images/favicon.png",
+          "title": "据资源站",
+          "desc": "聚合常用网站的导航."
+        }, {
           "url": "https://www.baidu.com",
           "logo": "https://www.baidu.com/favicon.ico",
           "title": "百度",
