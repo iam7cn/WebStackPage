@@ -19,9 +19,9 @@ const itemlist =
           "desc": "百度一下，你就知道"
         }, {
           "url": "https://www.google.com",
-          "logo": jsdelivr + "google.ico",
-          "title": "谷歌",
-          "desc": ""
+          "logo": jsdelivr + "google.png",
+          "title": "Google(翻)",
+          "desc": "全球最大搜索网站"
         }, {
           "url": "https://www.braindance.top",
           "logo": jsdelivr + "blog.png",
