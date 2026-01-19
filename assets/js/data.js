@@ -24,7 +24,7 @@ const itemlist =
           "desc": "全球最大搜索网站"
         }, {
           "url": "https://www.braindance.top",
-          "logo": jsdelivr + "blog.png",
+          "logo": "https://www.braindance.top/favicon.ico",
           "title": "Braindance",
           "desc": "博客"
         }, {
