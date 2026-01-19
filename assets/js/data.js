@@ -51,19 +51,29 @@ const itemlist =
       "web": [
         {
           "url": "https://github.com",
-          "logo": jsdelivr + "github.gif",
+          "logo": jsdelivr + "github.webp",
           "title": "GitHub",
-          "desc": ""
+          "desc": "GitHub 开源社区。"
         }, {
           "url": "https://gitee.com",
           "logo": "https://gitee.com/favicon.ico",
           "title": "Gitee",
-          "desc": ""
+          "desc": "基于 Git 的代码托管和研发协作平台。"
         }, {
           "url": "https://hub.docker.com/",
-          "logo": "https://www.docker.com/wp-content/uploads/2022/01/cropped-Docker-R-Logo-08-2018-Monochomatic-RGB_Moby-x1-32x32.png",
+          "logo": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-32x32.png",
           "title": "DockerHub",
           "desc": ""
+        },{
+          "url": "https://codeberg.org/?ref=https://juzyz.com",
+          "logo": jsdelivr + "codeberg.webp",
+          "title": "Codeberg",
+          "desc": "基于 Forgejo，(欧盟)德国开发者维护的托管平台。"
+        },{
+          "url": "https://gitcode.com/?ref=https://juzyz.com",
+          "logo": jsdelivr + "gitcode.png",
+          "title": "GitCode",
+          "desc": "开发者的代码家园。"
         },
       ]
     }, {
@@ -171,10 +181,5 @@ const itemlist =
           "desc": ""
         },
       ]
-    },
-	{
-      "name": "关于我们",
-      "icon": "fa-solid fa-star",
-      "url": "https://www.baidu.com"        
     }
   ]
