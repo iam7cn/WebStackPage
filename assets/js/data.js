@@ -22,12 +22,18 @@ const itemlist =
           "logo": jsdelivr + "google.png",
           "title": "Google(翻)",
           "desc": "全球最大搜索网站"
-        }, {
+        }, /* {
           "url": "https://www.braindance.top",
           "logo": "https://www.braindance.top/favicon.ico",
           "title": "Braindance",
           "desc": "博客"
-        }, {
+        }, */ 
+		{
+          "url": "https://translate.google.com",
+          "logo": jsdelivr + "googletranslate.png",
+          "title": "Google翻译",
+          "desc": "谷歌翻译-国内版已失效"
+        },{
           "url": "https://www.bilibili.com",
           "logo": "https://www.bilibili.com/favicon.ico",
           "title": "Bilibili",
